@@ -1,0 +1,17 @@
+body{color:blue;}
+h1 {color:palevioletred;}
+h1 {background-color: rgb(6, 6, 6);}
+a:link {color:darkgreen;}
+h1 {color: darkred;}
+p strong {color: darkkhaki;}
+p.intro {font-style: italic;}
+body {font-size:small; 
+    font-size:1.8em; 
+    font-weight:bolder;
+     font-style:italic;
+    font-family:sans-serif;
+    font-family:Georgia;
+    font-family:Cambria;}
+    img#img1100 {width:5%;}
+    ol li {margin-bottom: 0.2em;}
+    div.flexible {display:flex;}
