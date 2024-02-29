@@ -16,16 +16,16 @@ p {font-family:sans-serif; }
 p {font-family:Georgia;}
 p {font-family:Cambria;}
 p {font-family:Cambria,Georgia,"Book Antiqua",serif}
-a:hover {  
+a:link {  
   color:darkgreen;  
 }
-a:active {  
+a:visited{  
   color:red;  
 }
-a:visited {  
+a:hover {  
   color:blue;  
 }
-a:link {  
+a:active {  
   color:purple;  
 }
 h1 {  
