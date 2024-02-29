@@ -16,7 +16,7 @@ p {font-family:sans-serif; }
 p {font-family:Georgia;}
 p {font-family:Cambria;}
 p {font-family:Cambria,Georgia,"Book Antiqua",serif}
-h1 link {  
+a:hover {  
   color:darkgreen;  
 }
 h1 {  
