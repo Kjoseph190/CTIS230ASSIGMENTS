@@ -19,6 +19,15 @@ p {font-family:Cambria,Georgia,"Book Antiqua",serif}
 a:hover {  
   color:darkgreen;  
 }
+a:active {  
+  color:red;  
+}
+a:visted {  
+  color:blue;  
+}
+a:link {  
+  color:purple;  
+}
 h1 {  
   color: darkred;  
 }
