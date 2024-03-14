@@ -46,3 +46,7 @@ ol li {
 div.flexible {  
   display:flex;  
 }
+
+p.testing{color: green;}
+
+img#img1100 {float: bottom;}
