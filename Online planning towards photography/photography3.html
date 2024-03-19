@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Schedule & Pricing - Outdoor Lifestyle Photography</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="Photography1.html">Home</a></li>
+<li><a href="Photography1.html">Portfolio</a></li>
+<li><a href="Photography1.html">About</a></li>
+<li><a href="Photography1.html">Contact</a></li>
+<li><a href="Photography2.html">Pricing</a></li>
+<li><a href="schedule.html">Schedule</a></li>
+</ul>
+</nav>
+</header>
+    
+<main>
+<section id="schedule">
+<h1>Schedule a Photoshoot</h1>
+<p>To schedule a photoshoot or check my availability, please fill out the form below:</p>
+            
+<form action="submit_schedule.php" method="POST">
+<label for="name">Your Name:</label>
+<input type="text" id="name" name="name" required>
+                
+<label for="email">Your Email:</label>
+<input type="email" id="email" name="email" required>              
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone" required>
+<label for="date">Preferred Date:</label>
+<input type="date" id="date" name="date" required>
+<label for="package">Select a Package:</label>
+<select id="package" name="package" required>
+<option value="standard">Standard Package - $200</option>
+<option value="premium">Premium Package - $350</option>
+<option value="custom">Custom Package - Starting from $250</option>
+</select>
+<label for="message">Message (optional):</label>
+<textarea id="message" name="message" rows="4"></textarea>
+<button type="submit">Submit Request</button>
+</form>
+</section>
+</main>
+<footer>
+<p>&copy; 2024 Your Name. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
